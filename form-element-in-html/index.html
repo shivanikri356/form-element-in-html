@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <h1>HTML Form</h1>
+    <h2>Login Form</h2>
+    <form action="/">
+      <p>
+        <div><label for="name">Name</label></div>
+        <input type="text" id="name" placeholder="Enter your name" name="name"> 
+      </p>
+       <p>
+        <div><label for="email">Email</label></div>
+       <input type="email" id="email" placeholder="Enter your email" name="email"> 
+       </p>
+       <p>
+        <div><label for="mobile">Moble</label></div>
+       <input type="tel" id="mobile" placeholder="Enter your mobile" name="mobile"> 
+       </p>
+       <p>
+        <div><label for="password">password</label></div>
+       <input type="password" id="password" placeholder="Enter your password" name="password"> 
+       </p>
+      <p> <input type="checkbox" required><span>terms and conditions</span></p>
+       <button type="reset">Reset</button>
+       <button type="submit">Submit</button>
+
+       
+    </form>
+
+  <div hidden>
+    <h2>YouTube Search</h2>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query">
+        <button>search in youtube</button>
+    </form>
+    <h2>Flipkart Search</h2>
+    <form action="https://www.google.com/search">
+        <label for="flipkart"> flipkart search</label>
+        <input id="flipkart" type="text" name="q">
+        <button>search in flipcart</button>
+
+    </form>
+    <h2>My Form</h2>
+    <form action="/">
+        <input type="text"  placeholder="please enter your name" required>
+        <input type="password" placeholder="please enter your password" minlength="6" maxlength="10">
+        <input type="number" min="100"  max="500">
+        <input type="tel">
+        <input type="checkbox" >
+        <input type="color" >
+        <input type="date" >
+        <input type="time" >
+        <input type="file" >
+        <button type="submit">Submit</button>
+        <!-- <input type="submit" value="search">
+        <button type="reset">Submit</button> -->
+
+    </form>
+  </div>
+</body>
+</html>
